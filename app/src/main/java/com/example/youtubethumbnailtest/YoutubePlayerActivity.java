@@ -41,12 +41,12 @@ public class YoutubePlayerActivity extends YouTubeBaseActivity {
                     youTubePlayer.setPlayerStyle(YouTubePlayer.PlayerStyle.DEFAULT);
 
                     //load the video
-                    youTubePlayer.loadVideo(videoID);
+                    //youTubePlayer.loadVideo(videoID);
 
                     //OR
 
                     //cue the video
-                    //youTubePlayer.cueVideo(videoID);
+                    youTubePlayer.cueVideo(videoID);
 
                     //if you want when activity start it should be in full screen uncomment below comment
                     //  youTubePlayer.setFullscreen(true);

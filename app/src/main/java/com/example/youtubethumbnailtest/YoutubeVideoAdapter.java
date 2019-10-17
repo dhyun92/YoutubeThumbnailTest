@@ -39,7 +39,7 @@ public class YoutubeVideoAdapter extends RecyclerView.Adapter<YoutubeViewHolder>
         final YoutubeVideoModel youtubeVideoModel = youtubeVideoModelArrayList.get(position);
 
         holder.videoTitle.setText(youtubeVideoModel.getTitle());
-        holder.videoDuration.setText(youtubeVideoModel.getDuration());
+        //holder.videoDuration.setText(youtubeVideoModel.getDuration());
 
         /* initialize the thumbnail image view, we need to pass Developer Key */
         holder.videoThumbnailImageView.initialize(Constants.DEVELOPER_KEY, new YouTubeThumbnailView.OnInitializedListener() {
