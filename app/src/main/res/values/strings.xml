@@ -2,6 +2,9 @@
     <string name="app_name">YoutubeThumbnailTest</string>
     <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
     <string name="close_player_activity">Close Player activitiy</string>
+    <string name="title_musicvideo">Music</string>
+    <string name="title_artist">Artist</string>
+
 
     <string-array name="video_id_array">
         <item>UWoyeuwj9c0</item>
